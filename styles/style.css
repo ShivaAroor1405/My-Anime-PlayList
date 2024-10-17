@@ -1,0 +1,101 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/images/background\ image.jpg) #030728 no-repeat center;
+}
+.card-list .card-item .user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #ffff;
+    padding: 4px;
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    margin: 0 70px 55px;
+    max-width: 1200px;
+}
+.card-list .card-item{
+    color: #ffff;
+    user-select: none;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(225, 225, 225, 0.2);
+    border: 1px solid rgba(225, 225, 225, 0.5);
+}
+.card-list .card-item .user-button{
+    font-weight: 500;
+    color: #030728;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    padding: 10px 35px;
+    background-color: #ffff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+.card-list .card-item .user-button:hover {
+background: rgba(216, 19, 19, 0.1);
+border: 1px solid #ffff;
+color:#ffff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #ffff;
+    height: 15px;
+    width: 15px;
+}
+.slider-wrapper .swiper-slide-button{
+    color: #ffff;
+    margin-top:-50px ;
+    transition: 0.2s ease
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+ color: #4658ff;   
+}
+@media (max-width:768px) {
+    .slider-wrapper {
+        margin:0 10px 40px;
+    } 
+    .slider-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+*main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/backgroung.jpg) #0c0c0c no-repeat center
+}
+.a1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10rem;
+    color: rgb(223, 229, 229);
+    border-radius: 6px;
+   
+}
